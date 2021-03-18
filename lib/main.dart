@@ -1,3 +1,4 @@
+import 'package:dino_runner/screens/game.screen.dart';
 import 'package:dino_runner/screens/home.screen.dart';
 import 'package:flame/flame.dart';
 import 'package:flutter/material.dart';
@@ -15,7 +16,8 @@ class DinoRunner extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(fontFamily: 'PressStart2P'),
-      home: HomeScreen(),
+      // home: HomeScreen(),
+      home: GameScreen(),
     );
   }
 }
